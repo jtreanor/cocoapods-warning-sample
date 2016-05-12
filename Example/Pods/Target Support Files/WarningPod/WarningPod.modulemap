@@ -1,0 +1,6 @@
+framework module WarningPod {
+  umbrella header "WarningPod-umbrella.h"
+
+  export *
+  module * { export * }
+}

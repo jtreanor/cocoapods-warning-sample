@@ -1,0 +1,16 @@
+PODS:
+  - WarningPod (0.1.0)
+
+DEPENDENCIES:
+  - WarningPod (from `../`)
+
+EXTERNAL SOURCES:
+  WarningPod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WarningPod: 9fffd04b9e80cff597140567b8a322e592448068
+
+PODFILE CHECKSUM: 43efb4441a5bc339b856195de93d3c28e56de152
+
+COCOAPODS: 1.0.0

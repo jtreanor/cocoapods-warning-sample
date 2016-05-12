@@ -7,12 +7,14 @@
 //
 
 #import "JCTAppDelegate.h"
+#import "JCTWarningClass.h"
 
 @implementation JCTAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [JCTWarningClass new];
     return YES;
 }
 
