@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WarningPod_Example' do
+  pod 'WarningPod', :path => '../'
+
+  target 'WarningPod_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
